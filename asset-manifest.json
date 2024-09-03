@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FrontEnd-Mentor-Desserts-Shop/static/css/main.3796f09a.css",
-    "main.js": "/FrontEnd-Mentor-Desserts-Shop/static/js/main.5cc1f32c.js",
+    "main.js": "/FrontEnd-Mentor-Desserts-Shop/static/js/main.0756f484.js",
     "static/js/453.b1578c88.chunk.js": "/FrontEnd-Mentor-Desserts-Shop/static/js/453.b1578c88.chunk.js",
     "static/media/illustration-empty-cart.svg": "/FrontEnd-Mentor-Desserts-Shop/static/media/illustration-empty-cart.c2bca079754e885ead5da25eb67b468e.svg",
     "static/media/icon-order-confirmed.svg": "/FrontEnd-Mentor-Desserts-Shop/static/media/icon-order-confirmed.13c71f684bda7569ca1696eb63bce688.svg",
@@ -11,11 +11,11 @@
     "static/media/icon-increment-quantity.svg": "/FrontEnd-Mentor-Desserts-Shop/static/media/icon-increment-quantity.198f568ac3a5878a42e68f03afb1837b.svg",
     "static/media/icon-decrement-quantity.svg": "/FrontEnd-Mentor-Desserts-Shop/static/media/icon-decrement-quantity.94e32888eee4ef88beccedc6f9534341.svg",
     "main.3796f09a.css.map": "/FrontEnd-Mentor-Desserts-Shop/static/css/main.3796f09a.css.map",
-    "main.5cc1f32c.js.map": "/FrontEnd-Mentor-Desserts-Shop/static/js/main.5cc1f32c.js.map",
+    "main.0756f484.js.map": "/FrontEnd-Mentor-Desserts-Shop/static/js/main.0756f484.js.map",
     "453.b1578c88.chunk.js.map": "/FrontEnd-Mentor-Desserts-Shop/static/js/453.b1578c88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3796f09a.css",
-    "static/js/main.5cc1f32c.js"
+    "static/js/main.0756f484.js"
   ]
 }
