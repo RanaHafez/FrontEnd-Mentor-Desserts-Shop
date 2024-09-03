@@ -1,5 +1,6 @@
 {
   "name": "product-list",
+  "homepage": "https://ranahafez.github.io/FrontEnd-Mentor-Desserts-Shop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
