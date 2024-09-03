@@ -1,0 +1,147 @@
+h1 {
+    color: hsl(14, 65%, 9%);
+}
+
+.products-grid {
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Start with 3 equal columns */
+}
+
+.products-section {
+    flex: 2;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.img-btn {
+    position: relative;
+}
+
+.cartIcon {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+}
+.add-btn {
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -13px;
+    left: 50%;
+    z-index: 1;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: hsl(20, 50%, 98%);
+    border-radius: 20px;
+    padding: 10px;
+    width: 170px;
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-small {
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.img-large {
+    display: none;
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.product-category {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: hsl(12, 20%, 44%);
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+.product-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 65%, 9%);
+}
+
+
+.product-price {
+    font-weight: 600;
+    font-size: 17px;
+    color: hsl(14, 86%, 42%);
+}
+
+.product-info {
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.bordered-img {
+    border: 2px solid hsl(14, 86%, 42%);
+}
+
+.more-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(14, 86%, 42%);
+    color: white;
+    border: none;
+}
+
+.icon {
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+    width: 10px; /* Adjust size as needed */
+    height: 10px; /* Ensure height is the same as width for a perfect circle */
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+.icon:hover {
+    background-color: white;
+}
+
+/* When the screen width is smaller than 900px, switch to 2 columns */
+@media (max-width: 900px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns */
+    }
+}
+
+/* When the screen width is smaller than 600px, switch to 1 column */
+@media (max-width: 600px) {
+    .products-grid {
+        grid-template-columns: 1fr; /* Switch to 1 column */
+    }
+
+    .img-small {
+        display: none;
+    }
+
+    .img-large {
+        display: block;
+    }
+
+    .add-btn {
+        bottom: -20px;
+    }
+}
