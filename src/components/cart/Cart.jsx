@@ -61,7 +61,7 @@ function Cart (props) {
                  return <div>
                  <div className="order">
                      <div className="order-price-info">
-                        <img src={cartItem.image.thumbnail} className="thumbnail-img"/>
+                        <img alt={cartItem.name} src={`${process.env.PUBLIC_URL}${cartItem.image.thumbnail}`} className="thumbnail-img"/>
                         <div className="more-info">
                            <h4 className="name">{cartItem.name}</h4>
                            <div className="row-items-left">
